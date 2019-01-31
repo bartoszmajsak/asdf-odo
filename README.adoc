@@ -1,0 +1,16 @@
+= asdf-oc
+
+image::https://travis-ci.org/bartoszmajsak/asdf-odo.svg?branch=master)[link="https://travis-ci.org/bartoszmajsak/asdf-odo"]
+
+odo plugin for https://github.com/asdf-vm/asdf[asdf] version manager.
+
+== Install
+
+[source,bash]
+----
+asdf plugin-add odo https://github.com/bartoszmajsak/asdf-odo.git
+----
+
+== Use
+
+Check out the https://github.com/asdf-vm/asdf#asdf-[asdf README] for instructions on how to install and manage versions of variety of tools it supports.
