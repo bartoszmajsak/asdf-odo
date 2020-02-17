@@ -57,7 +57,7 @@ get_download_url() {
   local filename=""
   platform=$(get_arch)
   filename="odo-${platform}"
-  echo "https://github.com/redhat-developer/odo/releases/download/${version}/${filename}"
+  echo "https://github.com/openshift/odo/releases/download/${version}/${filename}"
 }
 
 install $ASDF_INSTALL_TYPE $ASDF_INSTALL_VERSION $ASDF_INSTALL_PATH

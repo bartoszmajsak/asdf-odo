@@ -1,8 +1,8 @@
-= asdf-oc
+= asdf-odo
 
 image::https://travis-ci.org/bartoszmajsak/asdf-odo.svg?branch=master)[link="https://travis-ci.org/bartoszmajsak/asdf-odo"]
 
-odo plugin for https://github.com/asdf-vm/asdf[asdf] version manager.
+https://github.com/openshift/odo/[odo] plugin for https://github.com/asdf-vm/asdf[asdf] version manager.
 
 == Install
 
