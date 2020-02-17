@@ -35,15 +35,15 @@ get_arch() {
   case "$(uname -s)" in
 
     Darwin)
-      echo 'darwin-amd64.gz'
+      echo 'darwin-amd64.tar.gz'
       ;;
 
     Linux)
-      echo 'linux-amd64.gz'
+      echo 'linux-amd64.tar.gz'
       ;;
 
     CYGWIN*|MINGW32*|MSYS*)
-      echo 'windows-amd64.exe.gz'
+      echo 'windows-amd64.exe.tar.gz'
       ;;
 
     *)
@@ -57,7 +57,7 @@ get_download_url() {
   local filename=""
   platform=$(get_arch)
   filename="odo-${platform}"
-  echo "https://github.com/openshift/odo/releases/download/${version}/${filename}"
+  echo "https://mirror.openshift.com/pub/openshift-v4/clients/odo/${version}/${filename}"
 }
 
 install $ASDF_INSTALL_TYPE $ASDF_INSTALL_VERSION $ASDF_INSTALL_PATH
